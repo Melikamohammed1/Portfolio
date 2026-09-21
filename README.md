@@ -1,16 +1,63 @@
-# React + Vite
+# Melika Mohammed | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive personal portfolio with a dark theme and scroll-triggered animations. I built it from scratch to learn React, working through each concept step by step.
 
-Currently, two official plugins are available:
+**Live site:** _coming soon_
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<!-- Add a screenshot at docs/screenshot.png, then remove this comment line and the closing one below:
+![Portfolio screenshot](docs/screenshot.png)
+-->
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Dark, glass-style design with glowing gradient accents
+- Scroll-triggered animations: fades, slides, and project cards that drop in with a springy bounce
+- Fully responsive layout with a mobile navigation menu
+- Data-driven Skills and Projects sections
+- Contact section with Email, GitHub and LinkedIn cards plus a message form
+- Respects the "reduce motion" system setting
 
-## Expanding the Oxlint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- [React](https://react.dev) 19
+- [Vite](https://vite.dev)
+- [Tailwind CSS](https://tailwindcss.com) v4
+- [Framer Motion](https://motion.dev)
+
+## Getting Started
+
+You need a recent version of [Node.js](https://nodejs.org) (20 or newer).
+
+```bash
+git clone https://github.com/Melikamohammed1/Portfolio.git
+cd Portfolio
+npm install
+npm run dev
+```
+
+Then open the local URL that Vite prints (usually http://localhost:5173).
+
+Other scripts:
+
+| Command           | What it does                          |
+| ----------------- | ------------------------------------- |
+| `npm run build`   | Creates an optimized production build |
+| `npm run preview` | Serves the production build locally   |
+| `npm run lint`    | Checks the code for problems          |
+
+## Project Structure
+
+```
+src/
+├── components/     # Navbar, Hero, About, Skills, Projects, Contact, Footer, ...
+├── assets/         # Images
+├── animations.js   # Shared Framer Motion animation presets
+├── App.jsx         # Assembles the sections
+├── main.jsx        # Entry point
+└── index.css       # Tailwind setup and theme
+```
+
+## Connect
+
+- GitHub: [@Melikamohammed1](https://github.com/Melikamohammed1)
+- LinkedIn: [Melika Mohammed](https://www.linkedin.com/in/melika-mohammed-bba53538a/)
