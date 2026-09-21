@@ -1,1 +1,16 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-night: #060913;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-night text-slate-400 antialiased;
+  }
+}
