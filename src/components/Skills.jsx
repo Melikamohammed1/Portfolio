@@ -16,8 +16,21 @@ const skillGroups = [
     items: ["Flutter", "Dart"],
   },
   {
+    title: "Database",
+    items: ["MySQL", "MongoDb", "SQLite", "PostgreSQL"],
+
+  },
+  {
+    title: "Programming",
+    items: ["Python", "C++", "Java"],
+  },
+  {
+    tittle: "Development",
+    items: ["JSON", "API Integration", "Responsive Design", "CRUD Operations"],
+  },
+  {
     title: "Tools",
-    items: ["Git", "GitHub", "VS Code"],
+    items: ["Git", "GitHub", "VS Code", "Figma"],
   },
 ]
 

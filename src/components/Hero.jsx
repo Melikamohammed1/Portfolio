@@ -35,7 +35,7 @@ function Hero() {
           variants={fadeUp}
           className="mt-6 text-lg md:text-xl text-slate-400 max-w-2xl"
         >
-          Frontend Developer building clean, modern web experiences.
+          Full Stack Developer building clean, modern web experiences.
         </motion.p>
 
         <motion.div
