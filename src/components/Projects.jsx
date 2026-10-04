@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard'
 import portfolioImg from '../assets/portfolio.png'
 import AfalagiImg from '../assets/afalagi.png'
 import MosiacWall from '../assets/mosiacwall.png'
-import PawsHome from '../assets/pwashome.png'
+import PawsHome from '../assets/pwashome.jpg'
 
 const projects = [
   
