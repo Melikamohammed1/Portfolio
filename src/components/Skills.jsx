@@ -25,7 +25,7 @@ const skillGroups = [
     items: ["Python", "C++", "Java"],
   },
   {
-    tittle: "Development",
+    title: "Development",
     items: ["JSON", "API Integration", "Responsive Design", "CRUD Operations"],
   },
   {
